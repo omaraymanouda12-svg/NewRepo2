@@ -102,3 +102,20 @@ foreach (string book in books)
 }
 
 // 8th answer
+
+
+
+
+static void PrintFirstBook(string[] books)
+{
+    if (books.Length == 0)
+    {
+        return;
+    }
+
+    Console.WriteLine(books[0]);
+}
+
+PrintFirstBook(books);
+
+// 9th answer
