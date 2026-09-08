@@ -171,15 +171,17 @@ Console.WriteLine(ReferenceEquals(title1, title3));
 
 
 
-        string title5 = "Library";
-        string status1 = "Updated";
 
-        string result1 = string.Format("{0} - {1}", title, status);
 
-        Console.WriteLine(result);
+string title5 = "Library";
+string status1 = "Updated";
+
+string result1 = string.Format("{0} - {1}", title, status);
+
+Console.WriteLine(result);
+
 
 // 15th answer
-
 
 
 
