@@ -66,3 +66,11 @@ while (q < 3);
 
 
 // 5th answer
+
+
+foreach (string book in books)
+{
+    Console.WriteLine(book);
+}
+
+// 6th answer
