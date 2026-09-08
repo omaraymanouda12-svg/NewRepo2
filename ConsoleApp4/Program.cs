@@ -128,3 +128,12 @@ Console.WriteLine(title2);
 Console.WriteLine(upperTitle);
 
 // 10th answer
+
+
+string title1 = "Clean Code";
+string title3 = "Clean Code";
+
+Console.WriteLine(ReferenceEquals(title1, title3));
+
+
+// 11th answer
