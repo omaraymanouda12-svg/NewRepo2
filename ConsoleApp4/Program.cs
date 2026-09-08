@@ -1,7 +1,9 @@
 ﻿
 
 
-        string title = "Refactoring";
+using System.Text;
+
+string title = "Refactoring";
 
         switch (title)
         {
@@ -145,3 +147,15 @@ Console.WriteLine(ReferenceEquals(title1, title3));
     Console.WriteLine(sb.ToString());
 
 // 12th answer
+
+
+
+        StringBuilder sb1 = new StringBuilder("Book List - Updated");
+
+        sb.Replace("Book List", "Library");
+
+        Console.WriteLine(sb.ToString());
+
+// 13th answer
+
+
