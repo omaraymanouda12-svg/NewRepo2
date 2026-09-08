@@ -119,3 +119,12 @@ static void PrintFirstBook(string[] books)
 PrintFirstBook(books);
 
 // 9th answer
+
+string title2 = "clean code";
+
+string upperTitle = title2.ToUpper();
+
+Console.WriteLine(title2);
+Console.WriteLine(upperTitle);
+
+// 10th answer
