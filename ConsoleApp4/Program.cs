@@ -26,7 +26,17 @@
         string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
 
         Console.WriteLine(sizeLabel);
-  
+
 
 // 2nd answer
-        
+
+string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+for (int i = 0; i < books.Length; i++)
+{
+    Console.WriteLine("ENTER BOOK NUMBER(0,1,2)");
+int Num = int.Parse(Console.ReadLine());
+    Console.WriteLine( books[Num]);
+}
+
+// 3rd answer
