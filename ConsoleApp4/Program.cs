@@ -74,3 +74,17 @@ foreach (string book in books)
 }
 
 // 6th answer
+
+string[] books2 = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+foreach (string book in books2)
+{
+    Console.WriteLine(book);
+
+    if (book == "Refactoring")
+    {
+        break;
+    }
+}
+
+// 7th answer
