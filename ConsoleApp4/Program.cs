@@ -54,3 +54,15 @@ while (i < books.Length)
 
 
 // 4th answer
+
+int q = 0;
+
+do
+{
+    Console.WriteLine(books[q]);
+    q++;
+}
+while (q < 3);
+
+
+// 5th answer
