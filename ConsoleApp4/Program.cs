@@ -159,3 +159,15 @@ Console.WriteLine(ReferenceEquals(title1, title3));
 // 13th answer
 
 
+
+        string title4 = "Library";
+        string status = "Updated";
+
+        string result = $"{title} - {status}";
+
+        Console.WriteLine(result);
+
+// 14th answer
+
+
+
