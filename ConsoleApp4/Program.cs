@@ -137,3 +137,11 @@ Console.WriteLine(ReferenceEquals(title1, title3));
 
 
 // 11th answer
+
+     System.Text.StringBuilder sb = new System.Text.StringBuilder();
+     sb.Append("Book List");
+     sb.Append(" - Updated");
+
+    Console.WriteLine(sb.ToString());
+
+// 12th answer
