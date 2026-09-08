@@ -32,7 +32,7 @@
 
 string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
-for (int i = 0; i < books.Length; i++)
+for (int y = 0; y < books.Length; y++)
 {
     Console.WriteLine("ENTER BOOK NUMBER(0,1,2)");
 int Num = int.Parse(Console.ReadLine());
@@ -40,3 +40,17 @@ int Num = int.Parse(Console.ReadLine());
 }
 
 // 3rd answer
+
+
+
+
+int i = 0;
+
+while (i < books.Length)
+{
+    Console.WriteLine(books[i]);
+    i++;
+}
+
+
+// 4th answer
